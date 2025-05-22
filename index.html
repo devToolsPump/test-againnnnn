@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test againnnnn</title>
+    <style>
+        body {
+            background: Black;
+            color: White;
+            font-family: Arial, sans-serif;
+        }
+        .premium-badge {
+            background: gold;
+            padding: 2px 6px;
+            border-radius: 10px;
+            font-size: 0.8em;
+            margin-left: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Test againnnnn</h1>
+    <p class="description">
+        Jsjsjajjsjsjdjjdsnnsbwnw
+        
+    <style>
+        :root {
+            --bg-color: Black;
+            --text-color: White;
+            --accent: #6d28d9;
+        }
+        
+        body {
+            background: var(--bg-color);
+            color: var(--text-color);
+            font-family: 'Inter', -apple-system, sans-serif;
+            margin: 0;
+            min-height: 100vh;
+            display: grid;
+            place-items: center;
+            text-align: center;
+            padding: 1rem;
+            line-height: 1.5;
+        }
+
+        .container {
+            max-width: 680px;
+            width: 100%;
+            padding: 2rem;
+            animation: fadeIn 0.8s ease;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .logo {
+            width: 140px;
+            height: 140px;
+            object-fit: contain;
+            margin: 0 auto 1.5rem;
+            border-radius: 24px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .logo:hover {
+            transform: scale(1.05);
+        }
+
+        h1 {
+            font-size: 2.4rem;
+            margin: 0 0 1rem;
+            background: linear-gradient(90deg, var(--accent), #8b5cf6);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            line-height: 1.2;
+        }
+
+        .description {
+            font-size: 1.1rem;
+            opacity: 0.9;
+            margin: 0 auto 2rem;
+            max-width: 600px;
+        }
+
+        .contract-wrapper {
+            position: relative;
+            margin: 2rem auto;
+            max-width: 100%;
+        }
+
+        .contract {
+            background: rgba(0,0,0,0.1);
+            padding: 1.2rem;
+            border-radius: 16px;
+            font-family: 'Roboto Mono', monospace;
+            word-break: break-all;
+            font-size: 0.9rem;
+            backdrop-filter: blur(8px);
+            border: 1px solid rgba(255,255,255,0.1);
+        }
+
+        .copy-btn {
+            position: absolute;
+            right: 10px;
+            top: 10px;
+            background: var(--accent);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            padding: 0.3rem 0.6rem;
+            font-size: 0.7rem;
+            cursor: pointer;
+            opacity: 0;
+            transition: opacity 0.2s ease;
+        }
+
+        .contract-wrapper:hover .copy-btn {
+            opacity: 1;
+        }
+
+        .socials {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            margin-top: 2.5rem;
+            flex-wrap: wrap;
+        }
+
+        .social-link {
+            background: var(--accent);
+            color: white;
+            padding: 0.8rem 1.8rem;
+            border-radius: 12px;
+            text-decoration: none;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 0.6rem;
+            transition: all 0.2s ease;
+        }
+
+        .social-link:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(109, 40, 217, 0.3);
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 1.5rem;
+            }
+            
+            h1 {
+                font-size: 2rem;
+            }
+            
+            .logo {
+                width: 120px;
+                height: 120px;
+            }
+            
+            .social-link {
+                padding: 0.7rem 1.5rem;
+            }
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Roboto+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        
+        <img src="image_1747945878.jpg" alt="Test againnnnn" class="logo">
+        
+        
+        <h1>Test againnnnn</h1>
+        
+        <p class="description">Jsjsjajjsjsjdjjdsnnsbwnw</p>
+        
+        <div class="contract-wrapper">
+            <div class="contract" id="contractAddress">Hahahaha</div>
+            <button class="copy-btn" onclick="copyContract()">Copy</button>
+        </div>
+        
+        <div class="socials">
+            
+            <a href="Https://t.me.org" class="social-link" target="_blank">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 24C18.6274 24 24 18.6274 24 12C24 5.37258 18.6274 0 12 0C5.37258 0 0 5.37258 0 12C0 18.6274 5.37258 24 12 24Z" fill="currentColor"/>
+                    <path d="M5.49141 11.7398L16.2034 7.6698C16.8894 7.4018 17.4844 7.7338 17.2944 8.6538L17.2954 8.6528L15.2684 17.6938C15.1224 18.3918 14.6334 18.5768 14.0624 18.2688L10.9664 15.9378L9.40241 17.4308C9.21341 17.6198 9.05641 17.7768 8.69241 17.7768L8.88841 14.6318L15.0734 9.0788C15.3614 8.8258 15.0174 8.6828 14.6444 8.9358L7.21841 13.6828L4.18741 12.7118C3.50341 12.4898 3.49341 11.9458 4.32041 11.6128L19.5404 5.6168C20.1354 5.3688 20.6724 5.7388 20.4534 6.5158L18.0224 17.2378C17.8814 17.8078 17.4134 18.1318 16.8534 18.1318C16.2034 18.1318 15.8824 17.7098 15.5634 17.0528L12.4654 10.5068L9.99941 8.8008C9.60641 8.5228 9.16341 8.3788 8.71341 8.3788C7.79541 8.3788 7.02441 9.1498 7.02441 10.0678C7.02441 10.3418 7.07341 10.6128 7.16641 10.8678L5.49141 11.7398Z" fill="white"/>
+                </svg>
+                Telegram
+            </a>
+            
+            
+            
+            <a href="Https://x.com" class="social-link" target="_blank">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 24C18.6274 24 24 18.6274 24 12C24 5.37258 18.6274 0 12 0C5.37258 0 0 5.37258 0 12C0 18.6274 5.37258 24 12 24Z" fill="currentColor"/>
+                    <path d="M18.6667 8.25C18.0833 8.54167 17.4583 8.75 16.7917 8.83333C17.4583 8.41667 18 7.75 18.25 7C17.625 7.375 16.9167 7.66667 16.1667 7.83333C15.5833 7.20833 14.75 6.83333 13.8333 6.83333C11.9167 6.83333 10.3333 8.41667 10.3333 10.3333C10.3333 10.5833 10.375 10.8333 10.4167 11.0833C7.83333 10.9167 5.54167 9.58333 4.08333 7.58333C3.83333 8.08333 3.66667 8.58333 3.66667 9.16667C3.66667 10.25 4.25 11.25 5.08333 11.8333C4.58333 11.8333 4.08333 11.6667 3.66667 11.4167V11.4583C3.66667 13.125 4.83333 14.5417 6.33333 14.875C6.08333 14.9583 5.83333 15 5.58333 15C5.375 15 5.16667 14.9583 4.95833 14.9167C5.375 16.3333 6.66667 17.4167 8.16667 17.4583C6.95833 18.4583 5.45833 19 3.83333 19C3.58333 19 3.33333 19 3.08333 18.9583C4.58333 20 6.375 20.6667 8.33333 20.6667C13.8333 20.6667 16.9167 15.0417 16.9167 10.125C16.9167 10 16.9167 9.83333 16.9167 9.66667C17.5833 9.16667 18.1667 8.58333 18.6667 8.25Z" fill="white"/>
+                </svg>
+                Twitter
+            </a>
+            
+        </div>
+    </div>
+
+    <script>
+        function copyContract() {
+            const contract = document.getElementById('contractAddress');
+            navigator.clipboard.writeText(contract.innerText);
+            
+            const btn = document.querySelector('.copy-btn');
+            btn.innerText = 'Copied!';
+            setTimeout(() => btn.innerText = 'Copy', 2000);
+        }
+    </script>
+</body>
+</html>
